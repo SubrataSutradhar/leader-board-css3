@@ -1,6 +1,26 @@
 /* fonts/ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
+/* navigation */
+nav a {
+    text-decoration: none;
+    margin-right: 50px;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #562EFF;
+
+    width: 1440px;
+    height: 94px;
+}
+
+.nav-view {
+    padding: 20px;
+}
+
 /* common styles or utility */
 body {
     font-family: 'Poppins', sans-serif;
